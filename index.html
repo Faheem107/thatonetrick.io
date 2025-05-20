@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>thatonetrick.io</title>
+  <!-- Google Font: cursive for the logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!-- AOS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="#videos" class="dropbtn">Videos <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="#">Maths</a>
+          <a href="#">Physics</a>
+          <a href="#">Chemistry</a>
+          <a href="#">Computer Sci</a>
+          <a href="#">Biology</a>
+        </div>
+      </li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <h1 class="logo">thatonetrick<span class="dot">.io</span></h1>
+    <p class="subheadline">One trick. All CBSE Maths, Physics, Chem, CS &amp; Bio.</p>
+    <a href="#about" class="btn scroll-btn">Learn More ↓</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about" data-aos="fade-up">
+    <h2>What Is “ThatOneTrick”?</h2>
+    <p>
+      Every CBSE question boils down to a core trick.  
+      “ThatOneTrick” is your pocket guide to it—fast, focused, and foolproof.
+    </p>
+  </section>
+
+  <!-- Videos Section -->
+  <section id="videos" class="section videos" data-aos="fade-up" data-aos-delay="200">
+    <h2>Pick Your Subject</h2>
+    <div class="button-grid">
+      <a class="subject-btn" href="#"><i class="fas fa-square-root-alt"></i> Maths</a>
+      <a class="subject-btn" href="#"><i class="fas fa-atom"></i> Physics</a>
+      <a class="subject-btn" href="#"><i class="fas fa-flask"></i> Chemistry</a>
+      <a class="subject-btn" href="#"><i class="fas fa-laptop-code"></i> Computer Sci</a>
+      <a class="subject-btn" href="#"><i class="fas fa-dna"></i> Biology</a>
+    </div>
+    <p class="coming-soon">— videos coming soon —</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact" data-aos="fade-up" data-aos-delay="400">
+    <h2>Get in Touch</h2>
+    <p>Questions? Feedback? Drop us a line:</p>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" rows="4" placeholder="Your message…" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 thatonetrick.io
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
