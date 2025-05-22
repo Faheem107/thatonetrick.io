@@ -73,12 +73,12 @@ body {
 
 /* Hero */
 .hero {
-  height: 100vh;
-  background: url('images/hero-bg.jpg') center/cover no-repeat;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; 
 }
 .hero-overlay {
   position: absolute;
@@ -89,7 +89,9 @@ body {
   position: relative;
   text-align: center;
   color: #fff;
+  z-index: 1;
 }
+
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
